@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* container */
+.container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+/* header section (SAMA DENGAN HOME) */
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* foto */
+.profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #3b82f6;
+}
+
+/* info */
+.info h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.info p {
+  margin-top: 5px;
+  color: #475569;
+}
+
+/* garis */
+.line {
+  height: 1px;
+  background: #cbd5e1;
+  margin: 20px 0;
+}
+
+/* bio */
+.bio {
+  color: #334155;
+  line-height: 1.6;
+}
+
+/* skill */
+.skills {
+  margin-top: 15px;
+}
+
+.skills span {
+  display: inline-block;
+  background: #e2e8f0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+/* menu */
+.menu {
+  margin-top: 20px;
+}
+
+/* button sama seperti home */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+
+  background: #3b82f6;
+  color: white;
+
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}

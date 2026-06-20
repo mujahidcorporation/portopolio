@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="../css/project.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="profile-section">
+
+      <div class="info">
+        <h1>Project Saya</h1>
+        <p>Kumpulan karya & aplikasi yang saya buat</p>
+      </div>
+
+    </div>
+
+    <div class="line"></div>
+
+    <div class="project-list">
+
+      <div class="project-card" onclick="goTo('surat-izin-kerja.html')">
+        📄 Aplikasi Surat Izin Kerja
+      </div>
+
+      <div class="project-card" onclick="goTo('surat-lamaran-kerja.html')">
+        📑 Aplikasi Surat Lamaran Kerja
+      </div>
+
+      <div class="project-card" onclick="goTo('surat-resign.html')">
+        📑 Aplikasi Surat Lamaran Kerja
+      </div>
+
+      <div class="project-card" onclick="goTo('https://mujahidcorporation.github.io/Majelis_QA/')">
+        🌐 Website Majelis
+      </div>
+
+    </div>
+
+    <div class="menu">
+      <button onclick="window.location.href='../index.html'">
+        ⬅ Kembali
+      </button>
+    </div>
+
+  </div>
+
+  <script>
+    function goTo(page){
+      window.location.href = page;
+    }
+  </script>
+
+</body>
+</html>

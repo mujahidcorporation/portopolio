@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* container sama kayak home */
+.container {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 20px;
+}
+
+/* header */
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+/* info */
+.info h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.info p {
+  margin-top: 5px;
+  color: #475569;
+}
+
+/* garis */
+.line {
+  height: 1px;
+  background: #cbd5e1;
+  margin: 20px 0;
+}
+
+/* contact list */
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* item kontak */
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+
+  background: white;
+}
+
+/* icon */
+.item i {
+  color: #3b82f6;
+}
+
+/* menu */
+.menu {
+  margin-top: 20px;
+}
+
+/* button sama seperti home */
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+
+  background: #3b82f6;
+  color: white;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563eb;
+  transform: translateY(-2px);
+}
